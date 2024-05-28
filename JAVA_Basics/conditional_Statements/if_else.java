@@ -9,6 +9,9 @@ public class if_else {
         if (age >= 18) {
             System.out.println("Person can drive and vote!!");
         }
+        if (age>13 && age<18) {
+            System.out.println("Person is the teenager!!");
+        }
         else{
             System.out.println("Person can't drive and vote!!");
         }
