@@ -1,11 +1,17 @@
 package JAVA_Basics.Loops;
+import java.util.*;
 
 public class whileLoop {
     public static void main(String[] args) {
-        int count = 0;
-        while(count<10){
-            System.out.println("Hello SGGS");
-            count ++ ;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number:");
+        int num = sc.nextInt();
+        int count = 1;
+
+        while (count <= num) {
+            System.out.println(count);
+            count++ ;            
         }
+        sc.close();
     }
 }
