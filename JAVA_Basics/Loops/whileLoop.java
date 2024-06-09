@@ -1,0 +1,11 @@
+package JAVA_Basics.Loops;
+
+public class whileLoop {
+    public static void main(String[] args) {
+        int count = 0;
+        while(count<10){
+            System.out.println("Hello SGGS");
+            count ++ ;
+        }
+    }
+}
