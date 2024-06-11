@@ -15,5 +15,6 @@ public class conditional {
         else{
             System.out.println(num1 + " is less than "+ num2);
         }
+        sc.close();
     }
 }
