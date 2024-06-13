@@ -25,5 +25,6 @@ public class hollowRectangle {
         int rows = sc.nextInt();
         int cols = sc.nextInt();
         hallowRect(rows, cols);
+        sc.close();
     }
 }
