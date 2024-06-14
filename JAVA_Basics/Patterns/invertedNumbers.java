@@ -8,9 +8,7 @@ public class invertedNumbers {
             for(int j=1;j<=(n-i+1);j++){
                 System.out.print(j);
             }
-            for(int j=5;j>=(n-i);j--){
-                System.out.print(" ");
-            }
+
             System.out.println();
         }
     }
